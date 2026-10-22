@@ -6,7 +6,7 @@ screen = pygame.display.set_mode((900, 900))
 font = pygame.font.SysFont("Arial", 50)
 
 
-with open ("Files/words.json") as file:
+with open ("words.json") as file:
     realwords=json.load(file)
 
 def guesses(letter,guess):
